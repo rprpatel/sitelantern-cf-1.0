@@ -1,0 +1,29 @@
+{
+	 "name": "SiteLantern",
+	 "description": "SiteLantern offers a cost effective and powerful cloud based web analytics system that delivers a graphically rich self service user environment.",
+	 "version": "1.0",
+	 "category": "analytics",
+	 "main": "public/javascripts/sitelantern.js",
+	 "config":{
+		"details":{
+			"Language": "English",
+            "Restrictions": "None",
+            "TOS":"http://www.sitelantern.com/standard-terms",
+            "has_js": true
+		},
+		"assets":{
+			"logos" : {
+				"200px": "./public/images/sitelantern-logo-200.png",
+				"132px": "./public/images/sitelantern-logo-132.png"
+			}
+		},
+		"interface": [
+            {
+				"type": "string",
+				"id": "visitorid",
+				"name": "Visitor ID",
+				"description": "SiteLantern subscribers, please enter your SiteLantern Visitor ID. Found under Settings->Tracking->Getting Started from your SiteLantern Interface."
+			}
+			]
+	 },
+}
